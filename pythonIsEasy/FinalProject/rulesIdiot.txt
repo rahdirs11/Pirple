@@ -1,0 +1,31 @@
+'The idiot'
+
+Designing Steps:
+
+1) Distribute the cards to both the players.
+2) Each player will be given an opportunity to swap the cards from faceUp and the playable.
+	(this will be implemented later)
+3) Start the game
+	a) Each player makes a move
+	b) After every move:
+		-> check if the move is valid: the choice and count of cards from the given
+		   cards(playable) must be valid
+		   	-> if Valid, then the player picks the same number of cards from the top
+		   	   of the deck
+		   	-> else, ask the player to make his move again
+		   	(just for this design, if a player makes more than 3 incorrect moves, 
+		   	 he/she is deemed loser, and the other player automatically wins)
+		-> the move is made alternately until the deck is completely empty
+		-> at every move, if a player is unable to play by dropping card(s) of value
+		   greater than that of the topmost card on the board, then all the cards on the 
+		   board is taken by that player
+		-> if at any time, 
+			-> a player plays a 2, he can continue (wild card), gets another turn
+			-> if a player plays a 10, the board cards are emptied (BURNT)
+		-> once the deck is empty, the play is made with the playable cards without drawing cards, and the goal is to empty the cards at hand.
+		-> once the playable cards are emptied, the player can use the faceup cards, 
+		   and then the facedown cards.
+		-> the face down cards wont be visible to the user/player.
+		-> a player wins if on making his move, he is left with no cards!
+
+
