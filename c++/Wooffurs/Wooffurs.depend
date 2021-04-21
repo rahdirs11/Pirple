@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1617537562 source:e:\pirple\c++\wooffurs\breeds.cpp
+	"breeds.h"
+
+1617537724 e:\pirple\c++\wooffurs\breeds.h
+	"Dog.h"
+
+1617537726 e:\pirple\c++\wooffurs\dog.h
+	<string>
+
+1617538250 source:e:\pirple\c++\wooffurs\main.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"Dog.h"
+	"breeds.h"
+
