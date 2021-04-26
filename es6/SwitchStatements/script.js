@@ -137,7 +137,7 @@ let timeAdder = (value1, label1, value2, label2) => {
     return resultant
 }
 
-let result = timeAdder(5, 'days', 25, 'hours')
+let result = timeAdder(5, 'days', 25AA, 'hours')
 if (!result) {
     console.log('Invalid input')
 } else {
